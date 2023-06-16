@@ -96,3 +96,23 @@ footer {
     text-align: center;
     margin-bottom: 3em;
 }
+/*mobile view */
+@media (max-width: 480px) {
+    #projects img {
+        object-fit: fill;
+        border: 1px solid #ddd;
+        width: 20em;
+        height: 16em;
+        margin: 0.5em;
+        border-radius: 0.5em;
+}
+.projectdetails {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.skillsdetails {
+    display: flex;
+    flex-direction: column;
+}
+}
